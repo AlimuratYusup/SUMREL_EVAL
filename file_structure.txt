@@ -1,0 +1,25 @@
+project_root/
+│── config/
+│   ├── __init__.py
+│   └── settings.py
+│── core/
+│   ├── __init__.py
+│   ├── dataloader.py
+│   ├── evaluator.py
+│   ├── analysis.py
+│   └── summarizers/
+│       ├── __init__.py
+│       ├── base.py
+│       ├── hierarchical.py
+│       ├── keydoc.py
+│       ├── incremental.py
+│       ├── cluster.py
+│       └── mapreduce.py
+│── pipelines/
+│   ├── __init__.py
+│   └── evaluation.py
+│── utils/
+│   ├── __init__.py
+│   ├── logger.py
+│   └── file_io.py
+└── main.py
